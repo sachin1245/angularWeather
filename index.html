@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="weatherApp">
+    <head>
+        <title>AngularJS</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-3.3.6/dist/css/bootstrap.css" type="text/css">
+    </head>
+    
+    <body>
+        
+        <style>
+            html,body,input,select,textarea
+            {
+                font-size: 1.05em !important; 
+            }
+        </style>
+        
+       
+        
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#/">AngularJS Weather</a>
+                    </div>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/"><i class="fa fa-home"></i>Home</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="container">
+            
+            
+                <div ng-view>
+                
+                    
+                
+                </div>
+            
+            </div>
+        
+            
+
+    
+   
+        
+        
+        <script src="angular.min.js"></script>
+        <script src="angular-1.5.3/angular-route.min.js"></script>
+        <script src="angular-1.5.3/angular-resource.min.js"></script>
+        <script src="jquery-2.2.1.js"></script>
+        <script src="bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+
+</html>
